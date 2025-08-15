@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Twitter, Youtube } from "lucide-react";
+import {  Linkedin, Twitter, Youtube } from "lucide-react";
 import { Link } from "react-router-dom";
 import { scrollToElement } from "@/utils/scrollUtils";
 
@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="border-t bg-background">
       <div className="container mx-auto grid gap-8 py-10 md:grid-cols-3">
         <div>
-          <h3 className="font-bold">Money Mastery</h3>
+          <h3 className="font-bold">Money,Law and Growth Briefs</h3>
           <p className="mt-2 text-sm text-muted-foreground">
             Empowering you to master your money with practical, proven strategies.
           </p>
@@ -25,8 +25,7 @@ const Footer = () => {
           <div>
             <h4 className="mb-2 text-sm font-semibold">Contact</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="mailto:hello@moneymastery.blog">hello@moneymastery.blog</a></li>
-              <li><a href="#">Sponsorships</a></li>
+              <li><a href="mailto:alexanderwagwara@gmail.com">alexanderwagwara@gmail.com</a></li>
               <li><a href="#">Collaborations</a></li>
             </ul>
           </div>
@@ -34,12 +33,11 @@ const Footer = () => {
         <div>
           <h4 className="mb-2 text-sm font-semibold">Follow</h4>
           <div className="flex items-center gap-3 text-muted-foreground">
-            <a aria-label="Twitter" href="#" className="hover:text-foreground"><Twitter size={18} /></a>
-            <a aria-label="LinkedIn" href="#" className="hover:text-foreground"><Linkedin size={18} /></a>
-            <a aria-label="YouTube" href="#" className="hover:text-foreground"><Youtube size={18} /></a>
-            <a aria-label="Facebook" href="#" className="hover:text-foreground"><Facebook size={18} /></a>
+            <a aria-label="Twitter" href="https://x.com/alex_wagwara" className="hover:text-foreground"><Twitter size={18} /></a>
+            <a aria-label="LinkedIn" href="https://www.linkedin.com/in/moses-omondi-698abb327/" className="hover:text-foreground"><Linkedin size={18} /></a>
+            <a aria-label="YouTube" href="www.youtube.com/@wagwara" className="hover:text-foreground"><Youtube size={18} /></a>
           </div>
-          <p className="mt-4 text-xs text-muted-foreground">© {new Date().getFullYear()} Money Mastery. All rights reserved.</p>
+          <p className="mt-4 text-xs text-muted-foreground">© {new Date().getFullYear()} wagwara. All rights reserved.</p>
         </div>
       </div>
     </footer>
