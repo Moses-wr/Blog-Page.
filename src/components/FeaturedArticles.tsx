@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { useState } from "react";
 import article1 from "@/assets/article-1.jpg";
 import article2 from "@/assets/article-2.jpg";
 import article3 from "@/assets/article-3.jpg";
@@ -30,6 +31,20 @@ const articles = [
 ];
 
 const FeaturedArticles = () => {
+  const [expandedArticles, setExpandedArticles] = useState<Set<number>>(new Set());
+
+  const toggleExpanded = (articleId: number) => {
+    setExpandedArticles(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(articleId)) {
+        newSet.delete(articleId);
+      } else {
+        newSet.add(articleId);
+      }
+      return newSet;
+    });
+  };
+
   return (
     <section aria-labelledby="featured-heading" className="container mx-auto py-14">
       <div className="mb-8 flex items-end justify-between">
@@ -39,24 +54,34 @@ const FeaturedArticles = () => {
         </div>
       </div>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-        {articles.map((a) => (
-          <Card key={a.id} className="group overflow-hidden transition-transform hover:-translate-y-0.5">
-            <div className="aspect-[3/2] overflow-hidden">
-              <img src={a.image} alt={`${a.title} thumbnail`} className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
-            </div>
-            <CardHeader>
-              <CardTitle className="text-base">{a.title}</CardTitle>
-            </CardHeader>
-            <CardContent className="pt-2">
-              <p className="line-clamp-3 text-sm text-muted-foreground">{a.excerpt}</p>
-              <div className="mt-4">
-                <Button variant="link" className="p-0" asChild>
-                  <a href={a.href} aria-label={`Read more: ${a.title}`}>Read more →</a>
-                </Button>
+        {articles.map((a) => {
+          const isExpanded = expandedArticles.has(a.id);
+          return (
+            <Card key={a.id} className="group overflow-hidden transition-transform hover:-translate-y-0.5">
+              <div className="aspect-[3/2] overflow-hidden">
+                <img src={a.image} alt={`${a.title} thumbnail`} className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
               </div>
-            </CardContent>
-          </Card>
-        ))}
+              <CardHeader>
+                <CardTitle className="text-base">{a.title}</CardTitle>
+              </CardHeader>
+              <CardContent className="pt-2">
+                <p className={`text-sm text-muted-foreground ${isExpanded ? '' : 'line-clamp-3'}`}>
+                  {a.excerpt}
+                </p>
+                <div className="mt-4">
+                  <Button 
+                    variant="link" 
+                    className="p-0" 
+                    onClick={() => toggleExpanded(a.id)}
+                    aria-label={`${isExpanded ? 'Show less' : 'Read more'}: ${a.title}`}
+                  >
+                    {isExpanded ? 'Show less ↑' : 'Read more →'}
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          );
+        })}
       </div>
     </section>
   );
