@@ -13,8 +13,8 @@ const About = () => {
   return (
     <main>
       <Helmet>
-        <title>About – Money Mastery Blog</title>
-        <meta name="description" content="Meet the finance blogger behind Money Mastery and learn the story behind the blog." />
+        <title>About – BUDGET BRIEFS AND TAX POLICY TALKS</title>
+        <meta name="description" content="YOUR SHARP, NO-FLUFF GUIDE TO MAKING SENSE OF MONEY LAWS AND EVERYTHING IN BETWEEN." />
         <link rel="canonical" href={canonical} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
@@ -24,11 +24,10 @@ const About = () => {
           <img src={portrait} alt="Finance blogger portrait" className="mx-auto w-full max-w-sm rounded-2xl object-cover shadow" />
         </div>
         <article>
-          <h1 className="text-4xl font-extrabold">Hi, I’m your guide to mastering money</h1>
+          <h1 className="text-4xl font-extrabold">Hi, I’m your guide to Budget briefs and tax policy talks</h1>
           <p className="mt-4 text-muted-foreground">
-            Over the past decade, I’ve helped thousands of readers simplify their finances and build wealth the
-            calm, sustainable way. My approach blends proven frameworks with behavioral science, so you can take
-            action confidently and stick with it.
+          Kenyan-based writer and researcher focused on analyzing recent government legislative changes, Treasury policies, and economic proposals.
+             Our work blends in-depth coverage of Kenya’s fiscal landscape with insights into international affairs, offering readers clear, timely, and well-researched perspectives on issues shaping both local and global. Feel free to reach us for any enquiries
           </p>
           <p className="mt-3 text-muted-foreground">
             Expect deep dives on investing, practical budgeting tactics, side hustle frameworks, and the money
