@@ -8,16 +8,9 @@ import article4 from "@/assets/article-4.jpg";
 const articles = [
   {
     id: 1,
-    title: "Beginner's Guide to Investing in Index Funds",
-    excerpt: "Why low-cost index funds often outperform the pros and how to get started today.",
+    title: "Master your money with smart budgeting and asset strategies",
+    excerpt: "How should you spend to get rich? Budgeting is not just about cutting, its about making smart financial wisdom.Budgeting is about giving your money a purpose and controlling your payslip so you grow your wealth,its a habit that builds your financial discpline and growth.Modern budgetting is easier(The 50/30/20 rule explains this technique.You can also try the envelope system where each spending category have its own limit.Budgetting is not just a financial excise its road map to independence and the momemt you take charge of where every coin goes you shift from reacting to your finances to actively building the life you want.",
     image: article1,
-    href: "#",
-  },
-  {
-    id: 2,
-    title: "The 50/30/20 Budget: A Simple Framework",
-    excerpt: "Take control of your spending with an easy, realistic budgeting method.",
-    image: article2,
     href: "#",
   },
   {
