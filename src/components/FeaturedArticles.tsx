@@ -14,9 +14,10 @@ const articles = [
     href: "#",
   },
   {
-    id: 3,
-    title: "7 Profitable Side Hustles You Can Start This Weekend",
-    excerpt: "Actionable ideas to boost your income without burning out.",
+    id: 2,
+    title: "Investing in Liquid, Technological and tangible assets",
+    excerpt: "Which asset should you back and how can you leverage them for maximum returns?You should have a clear Knowledge and understanding between old age,modern and emmerging twist.Today,'Liquid and Tecnological assets' are emmerging as powerful alternatives and some cases complements to traditional,physical investment.As an investor, understanding how to balance and leverage these categories is no longer optional;is the difference between stagnant growth and compounding returns.Defining theses assets:
+      1.Liquid Asset-Can be quickly converted into cash,Think of stocks,treasury bills, money market funds or high-grade corperate bonds.We will guide you with newsletters and financial wisdom on how to respond swiftly to market opportunities or shocks on these assets",
     image: article3,
     href: "#",
   },
