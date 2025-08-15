@@ -1,5 +1,6 @@
 import { Facebook, Linkedin, Twitter, Youtube } from "lucide-react";
 import { Link } from "react-router-dom";
+import { scrollToElement } from "@/utils/scrollUtils";
 
 const Footer = () => {
   return (
@@ -16,9 +17,9 @@ const Footer = () => {
             <h4 className="mb-2 text-sm font-semibold">Quick Links</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><Link to="/">Home</Link></li>
-              <li><a href="#categories">Categories</a></li>
+              <li><button onClick={() => scrollToElement('categories')} className="hover:text-foreground">Categories</button></li>
               <li><Link to="/about">About</Link></li>
-              <li><a href="#subscribe">Subscribe</a></li>
+              <li><button onClick={() => scrollToElement('subscribe')} className="hover:text-foreground">Subscribe</button></li>
             </ul>
           </div>
           <div>

@@ -6,8 +6,11 @@ import NewsletterForm from "@/components/NewsletterForm";
 import PromoStrip from "@/components/PromoStrip";
 import Categories from "@/components/Categories";
 import AboutTeaser from "@/components/AboutTeaser";
+import TaskBriefs from "@/components/TaskBriefs";
+import TaxPolicyNews from "@/components/TaxPolicyNews";
 import hero from "@/assets/hero-finance-blogger.jpg";
 import { Button } from "@/components/ui/button";
+import { scrollToElement } from "@/utils/scrollUtils";
 
 const Index = () => {
   const canonical = typeof window !== 'undefined' ? window.location.href : 'https://94522e3f-9a15-4291-b133-8a56b3a03438.lovableproject.com/';
@@ -46,13 +49,28 @@ const Index = () => {
               Practical strategies for investing, budgeting, side hustles, and the mindset that makes it all stick.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="#subscribe">
-                <Button variant="brand" className="animate-brand-glow">Start Free Newsletter</Button>
-              </a>
-              <a href="#featured">
-                <Button variant="hero">Explore Articles</Button>
-              </a>
+              <Button 
+                variant="brand" 
+                className="animate-brand-glow"
+                onClick={() => scrollToElement('subscribe')}
+              >
+                Start Free Newsletter
+              </Button>
+              <Button 
+                variant="hero"
+                onClick={() => scrollToElement('featured')}
+              >
+                Explore Articles
+              </Button>
             </div>
+          </div>
+        </section>
+
+        {/* Task Briefs and Tax Policy News */}
+        <section className="container mx-auto py-12">
+          <div className="grid gap-8 lg:grid-cols-2">
+            <TaskBriefs />
+            <TaxPolicyNews />
           </div>
         </section>
 

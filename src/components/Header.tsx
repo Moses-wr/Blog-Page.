@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { scrollToElement } from "@/utils/scrollUtils";
 
 const Header = () => {
   return (
@@ -12,20 +13,30 @@ const Header = () => {
           <NavLink to="/" className="text-sm text-muted-foreground hover:text-foreground">
             Home
           </NavLink>
-          <a href="#categories" className="text-sm text-muted-foreground hover:text-foreground">
+          <button 
+            onClick={() => scrollToElement('categories')} 
+            className="text-sm text-muted-foreground hover:text-foreground"
+          >
             Categories
-          </a>
+          </button>
           <NavLink to="/about" className="text-sm text-muted-foreground hover:text-foreground">
             About
           </NavLink>
-          <a href="#subscribe" className="text-sm text-muted-foreground hover:text-foreground">
+          <button 
+            onClick={() => scrollToElement('subscribe')} 
+            className="text-sm text-muted-foreground hover:text-foreground"
+          >
             Subscribe
-          </a>
+          </button>
         </nav>
         <div className="flex items-center gap-2">
-          <a href="#subscribe">
-            <Button size="sm" variant="brand">Subscribe</Button>
-          </a>
+          <Button 
+            size="sm" 
+            variant="brand"
+            onClick={() => scrollToElement('subscribe')}
+          >
+            Subscribe
+          </Button>
         </div>
       </div>
     </header>
