@@ -8,8 +8,7 @@ const AboutTeaser = () => {
       <div className="order-2 md:order-1">
         <h2 id="about-teaser" className="text-3xl font-bold">About the Blogger</h2>
         <p className="mt-2 text-muted-foreground">
-          I’m a finance educator and creator on a mission to make wealth-building simple and accessible. From
-          investing to budgeting to mindset, I share practical strategies that work in the real world.
+         Meet a Kenyan-based writer and researcher focused on analyzing recent government Tax changes, Treasury policies, and Economic proposals. Our work blends in-depth coverage of Kenya’s fiscal landscape with insights into international affairs, offering readers clear, timely, and well-researched perspectives on issues shaping both local and global. Feel free to reach us for any enquiries
         </p>
         <div className="mt-4">
           <Button asChild variant="outline">
