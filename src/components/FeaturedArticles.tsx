@@ -16,15 +16,22 @@ const articles = [
   {
     id: 2,
     title: "Investing in Liquid, Technological and tangible assets",
-    excerpt: "Which asset should you back and how can you leverage them for maximum returns?You should have a clear Knowledge and understanding between old age,modern and emmerging twist.Today,'Liquid and Tecnological assets' are emmerging as powerful alternatives and some cases complements to traditional,physical investment.As an investor, understanding how to balance and leverage these categories is no longer optional;is the difference between stagnant growth and compounding returns.Defining theses assets: 1. Liquid Asset-Can be quickly converted into cash.Think of stocks treasury bills money market funds or high-grade corperate bonds.We will guide you with newsletters and financial wisdom on how to respond swiftly to market opportunities or shocks on these assets.
-      2.Tangible Asets-They Inlude real Estate properties, machinery, gold or manufacturing plants. Get a deeper understanging on Inflation Hedger on these assets, and playing of the colleteral values for these assetsTechnological Assets-They Inlude Software like Intellectual Properties, patents, propriery algorithms and digital financial platforms.Walk with me to get a clear insights of how you can levarage on these investments"3.Tangible Asets-They Inlude real Estate properties, machinery, gold or manufacturing plants. Get a deeper understanging on Inflation Hedger on these assets, and playing of the colleteral values for these assets and leveraging both for Higher returns.Do you know future isn't purely digital, nor is it purely physcal?For the investor who understands how to pivot between these asset classes — and how to make them reinforce each other — the reward isn’t just higher returns, it’s resilience in any market cycle.,
+    excerpt: "Which asset should you back and how can you leverage them for maximum returns?You should have a clear Knowledge and understanding between old age,modern and emmerging twist.Today,'Liquid and Tecnological assets' are emmerging as powerful alternatives and some cases complements to traditional,physical investment.As an investor, understanding how to balance and leverage these categories is no longer optional;is the difference between stagnant growth and compounding returns.Defining theses assets: 
+      1.Liquid Asset-Can be quickly converted into cash.Think of stocks treasury bills money market funds or high-grade corperate bonds.We will guide you with newsletters and financial wisdom on how to respond swiftly to market opportunities or shocks on these assets.
+      2.Tangible Asets-They Inlude real Estate properties, machinery, gold or manufacturing plants. Get a deeper understanging on Inflation Hedger on these assets, and playing of the colleteral values for these assetsTechnological Assets-They Inlude Software like Intellectual Properties, patents, propriery algorithms and digital financial platforms.Walk with me to get a clear insights of how you can levarage on these investments.
+      3.Tangible Asets-They Inlude real Estate properties, machinery, gold or manufacturing plants. Get a deeper understanging on Inflation Hedger on these assets, and playing of the colleteral values for these assets and leveraging both for Higher returns.Do you know future isn't purely digital, nor is it purely physcal?For the investor who understands how to pivot between these asset classes — and how to make them reinforce each other — the reward isn’t just higher returns, it’s resilience in any market cycle.",
     image: article2,
     href: "#",
   },
   {
     id: 3,
-    title: "Money Mindset Reset: Build Wealth From Within",
-    excerpt: "Break limiting beliefs and create habits that compound over time.",
+    title: "Compliance Chronicles",
+    excerpt: "Every Dollar counts — and so does every clause in our tax laws in every regime,The government’s new amendments aren’t just legal fine print; they directly affect how much you take home, what you owe, and how you plan for the future. Understanding both the latest changes and existing policies empowers you
+      1. Avoid Costly Mistakes – Misinterpreting a tax requirement can lead to penalties, interest, or missed deductions.
+      2. Stay Compliant – Tax rules shift constantly. What was acceptable last year may be non-compliant today.
+      3. Plan Strategically – Knowledge of current and upcoming tax provisions allows you to structure your finances, investments, and business deals more efficiently.
+      4. Leverage Opportunities – New policies sometimes come with reliefs,exemptions, or incentives that can benefit you — but only if you know about them in time.
+      Stay tuned- I'll bebringing you timely updates, expert insights, and plain- language explanatios so you can navigate Fiscal policies in different regimes",
     image: article3,
     href: "#",
   },
@@ -35,8 +42,8 @@ const FeaturedArticles = () => {
     <section aria-labelledby="featured-heading" className="container mx-auto py-14">
       <div className="mb-8 flex items-end justify-between">
         <div>
-          <h2 id="featured-heading" className="text-3xl font-bold">Featured Articles</h2>
-          <p className="mt-1 text-sm text-muted-foreground">Latest insights to grow your wealth.</p>
+          <h2 id="featured-heading" className="text-3xl font-bold">Budgeting and Government Fiscal Briefs</h2>
+          <p className="mt-1 text-sm text-muted-foreground">Catch up with best budgeting and investment strategies and Latest insights of government Tax Laws and Amendments.</p>
         </div>
       </div>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
