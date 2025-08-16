@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import portrait from "@/assets/portrait-finance-blogger.jpg";
 import { Link } from "react-router-dom";
 
 const AboutTeaser = () => {
