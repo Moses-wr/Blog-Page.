@@ -51,7 +51,7 @@ const Index = () => {
             <div className="mt-6 flex flex-wrap gap-3">
               <Button 
                 variant="brand" 
-                className="animate-brand-glow"
+                className="animate-brand-glow" 
                 onClick={() => scrollToElement('subscribe')}
               >
                 Latest Newsletters
