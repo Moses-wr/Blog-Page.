@@ -26,7 +26,7 @@ const Footer = () => {
             <h4 className="mb-2 text-sm font-semibold">Contact</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="mailto:alexanderwagwara@gmail.com">alexanderwagwara@gmail.com</a></li>
-              <li><a href="+254703104231">Tell</a></li>
+              <li><a href="WhatsApp:+254703104231">+254703104231</a></li>
             </ul>
           </div>
         </div>
