@@ -7,7 +7,7 @@ const Header = () => {
     <header className="sticky top-0 z-30 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between">
         <Link to="/" className="font-extrabold text-lg tracking-tight">
-          Money Mastery
+          MONEY LAWS AND FINANCIAL GROWTH
         </Link>
         <nav className="hidden gap-6 md:flex">
           <NavLink to="/" className="text-sm text-muted-foreground hover:text-foreground">
