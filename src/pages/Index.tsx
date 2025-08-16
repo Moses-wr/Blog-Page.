@@ -43,7 +43,7 @@ const Index = () => {
           </div>
           <div className="container mx-auto flex min-h-[70vh] flex-col items-start justify-center py-24">
             <h1 className="max-w-2xl text-4xl font-extrabold tracking-tight md:text-5xl">
-              MONEY,LAW AND GROWTH
+              MONEY LAW AND FINANCIAL GROWTH
             </h1>
             <p className="mt-4 max-w-xl text-lg text-muted-foreground">
               Practical strategies for investing, budgeting and the mindset that makes it all stick.
