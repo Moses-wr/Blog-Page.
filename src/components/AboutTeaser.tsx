@@ -8,7 +8,7 @@ const AboutTeaser = () => {
       <div className="order-2 md:order-1">
         <h2 id="about-teaser" className="text-3xl font-bold">About the Blogger</h2>
         <p className="mt-2 text-muted-foreground">
-         Meet a Kenyan-based writer and researcher focused on analyzing recent government Legislativ changes, Treasury policies, and Economic proposals. Our work blends in-depth coverage of Kenya’s fiscal landscape with insights into international affairs, offering readers clear, timely, and well-researched perspectives on issues shaping both local and global.Do you know you can protect your money against predators? Feel free to reach us for any enquiries
+         Meet a Kenyan-based writer and researcher focused on analyzing recent government Legislative changes, Treasury policies, and Economic proposals. Our work blends in-depth coverage of Kenya’s fiscal landscape with insights into international affairs, offering readers clear, timely, and well-researched perspectives on issues shaping both local and global.Do you know you can protect your money against predators? Feel free to reach us for any enquiries
         </p>
         <div className="mt-4">
           <Button asChild variant="outline">
@@ -17,7 +17,7 @@ const AboutTeaser = () => {
         </div>
       </div>
       <div className="order-1 md:order-2">
-        <img src={portrait} alt="Portrait of the finance blogger" className="mx-auto h-56 w-56 rounded-xl object-cover shadow" loading="lazy" />
+        <img src=Flower.JPG alt="Flower.JPG" className="mx-auto h-56 w-56 rounded-xl object-cover shadow" loading="lazy" />
       </div>
     </section>
   );
