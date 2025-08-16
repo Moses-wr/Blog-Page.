@@ -7,26 +7,26 @@ const TaxPolicyNews = () => {
   const newsItems = [
     {
       id: 1,
-      title: "2024 Tax Season: New Standard Deduction Amounts",
-      summary: "IRS announces increased standard deduction limits for the 2024 tax year.",
-      date: "Dec 10, 2024",
+      title: "Tax Laws Change:I decode them for you",
+      summary: "Stay ahead of the tax curve-My articles are your go-to source for clear, timely updates on the latest government tax laws and amendments. I break down complex legislation into simple, practical insights—so you understand not just what the law says, but what it means for you, your business, and your money.",
+      date: "Timely Updates",
       category: "Tax Updates",
       urgent: true
     },
     {
       id: 2,
       title: "Retirement Account Contribution Limits for 2025",
-      summary: "Updated 401(k), IRA, and Roth IRA contribution limits released by the IRS.",
-      date: "Dec 8, 2024",
+      summary: "Updated Pension contribution limits released by the KRA.",
+      date: "2025",
       category: "Retirement",
       urgent: false
     },
     {
       id: 3,
-      title: "State Tax Changes: What You Need to Know",
+      title: "Tax Changes: What You Need to Know",
       summary: "Several states implementing new tax policies effective January 2025.",
-      date: "Dec 5, 2024",
-      category: "State Taxes",
+      date: "2025",
+      category: "KRA Taxes",
       urgent: false
     }
   ];
