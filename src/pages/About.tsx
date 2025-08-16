@@ -6,8 +6,8 @@ const About = () => {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "name": "About – Money Mastery Blog",
-    "description": "About the finance blogger behind Money Mastery.",
+    "name": "About – MONEY LAWS AND FINANCIAL GROWTH",
+    "description": "About the finance blogger behind MONEY LAWS AND FINANCIAL GROWTH.",
   };
 
   return (
