@@ -9,15 +9,15 @@ const TaskBriefs = () => {
       title: "Review Your Investment Portfolio",
       description: "Q4 is the perfect time to rebalance your investments and harvest tax losses.",
       priority: "high",
-      deadline: "Dec 31, 2024",
+      deadline: "Every End Year",
       icon: TrendingUp
     },
     {
       id: 2,
-      title: "Maximize Your 401(k) Contributions",
-      description: "Ensure you're hitting the 2024 contribution limit of $23,000 before year-end.",
+      title: "Maximize Your Daily increament Contributions plan",
+      description: "Ensure you're hitting the yearly contribution limit of atleast Ksh 66,795 before year-end.",
       priority: "medium",
-      deadline: "Dec 15, 2024",
+      deadline: "Yearly",
       icon: CheckCircle
     },
     {
@@ -25,7 +25,7 @@ const TaskBriefs = () => {
       title: "Plan Your 2025 Budget",
       description: "Start early with next year's financial goals and spending categories.",
       priority: "low",
-      deadline: "Jan 15, 2025",
+      deadline: "Dec 15, 2025",
       icon: Clock
     }
   ];
