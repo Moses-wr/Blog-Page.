@@ -16,7 +16,7 @@ const AboutTeaser = () => {
         </div>
       </div>
       <div className="order-1 md:order-2">
-        <img src="/src/assets/Flower.JPG" alt="Flower.JPG" className="mx-auto h-56 w-56 rounded-xl object-cover shadow" loading="lazy" />
+        <img src="/Flower.JPG" alt="Flower" className="mx-auto h-56 w-56 rounded-xl object-cover shadow" loading="lazy" />
       </div>
     </section>
   );
