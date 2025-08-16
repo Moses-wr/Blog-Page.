@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="border-t bg-background">
       <div className="container mx-auto grid gap-8 py-10 md:grid-cols-3">
         <div>
-          <h3 className="font-bold">Money,Law and Growth Briefs</h3>
+          <h3 className="font-bold">Money Law and Financial Growth Briefs</h3>
           <p className="mt-2 text-sm text-muted-foreground">
             Empowering you to master your money with practical, proven strategies.
           </p>
@@ -26,7 +26,7 @@ const Footer = () => {
             <h4 className="mb-2 text-sm font-semibold">Contact</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="mailto:alexanderwagwara@gmail.com">alexanderwagwara@gmail.com</a></li>
-              <li><a href="#">Collaborations</a></li>
+              <li><a href="+254703104231">Tell</a></li>
             </ul>
           </div>
         </div>
