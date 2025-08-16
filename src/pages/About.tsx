@@ -20,7 +20,7 @@ const About = () => {
 
       <section className="container mx-auto grid items-center gap-10 py-16 md:grid-cols-2">
         <div>
-          <img src="/src/assets/Flower.JPG" alt="FLOWER.JPG" className="mx-auto w-full max-w-sm rounded-2xl object-cover shadow" />
+          <img src="/src/assets/"Flower.JPG" alt="FLOWER.JPG" className="mx-auto w-full max-w-sm rounded-2xl object-cover shadow" />
         </div>
         <article>
           <h1 className="text-4xl font-extrabold">Hi, I’m your guide to Budget briefs and tax policy talks</h1>
