@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import { useState } from "react";
 
 // Import your images - make sure these paths are correct
 import article1 from "@/assets/article-1.jpg";
@@ -54,12 +54,11 @@ const FeaturedArticles = () => {
         {articles.map((a) => (
           <Card key={a.id} className="group overflow-hidden transition-transform hover:-translate-y-0.5">
             <div className="aspect-[3/2] overflow-hidden">
-              <Image 
+              <img 
                 src={a.image} 
                 alt={`${a.title} thumbnail`} 
                 className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                width={400}
-                height={266}
+                loading="lazy"
               />
             </div>
             <CardHeader>
