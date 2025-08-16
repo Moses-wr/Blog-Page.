@@ -26,7 +26,7 @@ const Footer = () => {
             <h4 className="mb-2 text-sm font-semibold">Contact</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="mailto:alexanderwagwara@gmail.com">alexanderwagwara@gmail.com</a></li>
-              <li><a href="WhatsApp:+254703104231">+254703104231</a></li>
+              <li><a href="https://wa.me/254703104231">+254703104231</a></li>
             </ul>
           </div>
         </div>
@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="flex items-center gap-3 text-muted-foreground">
             <a aria-label="Twitter" href="https://x.com/alex_wagwara" className="hover:text-foreground"><Twitter size={18} /></a>
             <a aria-label="LinkedIn" href="https://www.linkedin.com/in/moses-omondi-698abb327/" className="hover:text-foreground"><Linkedin size={18} /></a>
-            <a aria-label="YouTube" href="www.youtube.com/@wagwara" className="hover:text-foreground"><Youtube size={18} /></a>
+            <a aria-label="YouTube" href="https://www.youtube.com/@wagwara" className="hover:text-foreground"><Youtube size={18} /></a>
           </div>
           <p className="mt-4 text-xs text-muted-foreground">© {new Date().getFullYear()} wagwara. All rights reserved.</p>
         </div>
