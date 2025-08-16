@@ -18,16 +18,16 @@ const Index = () => {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    "name": "Money Mastery Blog",
-    "description": "Finance blog with expert tips on investing, budgeting, side hustles, and money mindset.",
+    "name": "MONEY LAWS AND FINANCIAL GROWTH",
+    "description": "Finance blog with expert tips on investing, budgeting, and tax policies.",
     "url": canonical,
   };
 
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Money Mastery Blog – Empower Your Finances</title>
-        <meta name="description" content="Finance blog with expert tips on investing, budgeting, side hustles, and money mindset." />
+        <title>MONEY LAWS AND FINANCIAL GROWTH – Empower Your Finances</title>
+        <meta name="description" content="Finance blog with expert tips on investing, budgeting, and Tax policies." />
         <link rel="canonical" href={canonical} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
@@ -43,10 +43,10 @@ const Index = () => {
           </div>
           <div className="container mx-auto flex min-h-[70vh] flex-col items-start justify-center py-24">
             <h1 className="max-w-2xl text-4xl font-extrabold tracking-tight md:text-5xl">
-              Empowering You to Master Your Money
+              MONEY,LAW AND GROWTH
             </h1>
             <p className="mt-4 max-w-xl text-lg text-muted-foreground">
-              Practical strategies for investing, budgeting, side hustles, and the mindset that makes it all stick.
+              Practical strategies for investing, budgeting and the mindset that makes it all stick.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Button 
@@ -54,13 +54,13 @@ const Index = () => {
                 className="animate-brand-glow"
                 onClick={() => scrollToElement('subscribe')}
               >
-                Start Free Newsletter
+                Latest Newsletters
               </Button>
               <Button 
                 variant="hero"
                 onClick={() => scrollToElement('featured')}
               >
-                Explore Articles
+                Explore Related Articles
               </Button>
             </div>
           </div>
