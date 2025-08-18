@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import portraitImage from "@/assets/Flower.JPG";
+import portraitImage from "@/assets/portrait-finance-blogger.jpg";
 
 const AboutTeaser = () => {
   return (
@@ -18,7 +18,7 @@ const AboutTeaser = () => {
       </div>
       <div className="order-1 md:order-2">
         <img 
-          src={Flower} 
+          src={portraitImage} 
           alt="About image" 
           className="mx-auto h-56 w-56 rounded-xl object-cover shadow" 
           loading="lazy" 
