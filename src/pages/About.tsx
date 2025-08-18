@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import portraitImage from "@/assets/Flower.JPG";
+import Flower from "@/assets/Flower.JPG";
 
 const About = () => {
   const canonical = typeof window !== 'undefined' ? window.location.href : 'https://94522e3f-9a15-4291-b133-8a56b3a03438.lovableproject.com/about';
