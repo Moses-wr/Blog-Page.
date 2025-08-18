@@ -16,17 +16,14 @@ const AboutTeaser = () => {
           </Button>
         </div>
       </div>
-     import Flower from "../assets/Flower.JPG";
-
-<div className="order-1 md:order-2">
-  <img 
-    src={Flower} 
-    alt="Flower" 
-    className="mx-auto h-56 w-56 rounded-xl object-cover shadow" 
-    loading="lazy" 
-  />
-</div>
-
+      <div className="order-1 md:order-2">
+        <img 
+          src={portraitImage} 
+          alt="Finance blogger portrait" 
+          className="mx-auto h-56 w-56 rounded-xl object-cover shadow" 
+          loading="lazy" 
+        />
+      </div>
     </section>
   );
 };
