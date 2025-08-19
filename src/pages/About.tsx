@@ -27,7 +27,7 @@ const About = () => {
           <h1 className="text-4xl font-extrabold">Hi, I’m your guide to Budget briefs and tax policy talks</h1>
           <p className="mt-4 text-muted-foreground">
           Kenyan-based writer and researcher focused on analyzing recent government legislative changes, Treasury policies, and economic proposals.
-             Our work blends in-depth coverage of Kenya’s fiscal landscape with insights into international affairs, offering readers clear, timely, and well-researched perspectives on issues shaping both local and global. Feel free to reach us for any enquiries
+             My work blends in-depth coverage of Kenya’s fiscal landscape with insights into international affairs, offering readers clear, timely, and well-researched perspectives on issues shaping both local and global. Feel free to reach me for any enquiries
           </p>
           <p className="mt-3 text-muted-foreground">
             Expect deep dives on investing, practical budgeting tactics, side hustle frameworks, and the money
