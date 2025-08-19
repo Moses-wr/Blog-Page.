@@ -7,7 +7,7 @@ const TaskBriefs = () => {
     {
       id: 1,
       title: "Review Your Investment Portfolio",
-      description: "Q4 is the perfect time to rebalance your investments and harvest tax losses.",
+      description: " Understand the perfect time to rebalance your investments and harvest tax losses.",
       priority: "high",
       deadline: "Every End Year",
       icon: TrendingUp
@@ -15,7 +15,7 @@ const TaskBriefs = () => {
     {
       id: 2,
       title: "Maximize Your Daily increament Contributions plan",
-      description: "Ensure you're hitting the yearly contribution limit of atleast Ksh 66,795 before year-end.",
+      description: "Ensure you're hitting the yearly  savings of at least Ksh 66,795 before year-end.",
       priority: "medium",
       deadline: "Yearly",
       icon: CheckCircle
@@ -25,7 +25,7 @@ const TaskBriefs = () => {
       title: "Plan Your 2025 Budget",
       description: "Start early with next year's financial goals and spending categories.",
       priority: "low",
-      deadline: "Dec 15, 2025",
+      deadline: "End of the Period",
       icon: Clock
     }
   ];
